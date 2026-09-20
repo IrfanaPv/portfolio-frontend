@@ -83,7 +83,8 @@ export default function Navbar() {
             ))}
           </nav>
 
-          <div className="flex items-center justify-end gap-3 justify-self-end">
+          {/* <div className="flex items-center justify-end gap-3 justify-self-end"> */}
+          <div className="col-start-3 flex items-center justify-end gap-3 justify-self-end">
             <button
               onClick={() => handleNavClick('contact')}
               className="hidden lg:inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-[#5eead4] text-black font-semibold transition-transform duration-200 hover:scale-[1.04] hover:bg-[#7ef0e3]"
