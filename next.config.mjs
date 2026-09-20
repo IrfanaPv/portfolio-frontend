@@ -9,6 +9,11 @@ const nextConfig = {
         port: '1337',
         pathname: '/uploads/**',
       },
+      {
+        protocol: 'http',
+        hostname: 'portfolio-cms-tpz3.onrender.com',
+        pathname: '/uploads/**',
+      }
     ],
     dangerouslyAllowLocalIP: true,
   },
