@@ -92,14 +92,20 @@ export default function Hero() {
           >
             I build digital systems that turn complex ideas into elegant products — backend architecture with Django REST, full-stack products, and interactive web experiences.
           </p>
-          <div className={`entrance ${play} entrance-4 flex flex-wrap gap-3 mt-7 sm:mt-9`}>
-            <button className="px-5 sm:px-6 py-2.5 bg-[#5eead4] text-black rounded-full text-sm font-semibold transition-transform duration-200 hover:scale-[1.04] hover:bg-[#7ef0e3]">
-              See selected work
-            </button>
-            <button className="px-5 sm:px-6 py-2.5 border border-white/20 rounded-full text-sm text-white transition-colors duration-200 hover:border-white/50 hover:bg-white/5">
-              Get in touch
-            </button>
-          </div>
+         <div className={`entrance ${play} entrance-4 flex flex-wrap gap-3 mt-7 sm:mt-9`}>
+  <a
+    href="#projects"
+    className="px-5 sm:px-6 py-2.5 bg-[#5eead4] text-black rounded-full text-sm font-semibold transition-transform duration-200 hover:scale-[1.04] hover:bg-[#7ef0e3]"
+  >
+    See selected work
+  </a>
+  <a
+    href="#contact"
+    className="px-5 sm:px-6 py-2.5 border border-white/20 rounded-full text-sm text-white transition-colors duration-200 hover:border-white/50 hover:bg-white/5"
+  >
+    Get in touch
+  </a>
+</div>
         </div>
       </div>
 
