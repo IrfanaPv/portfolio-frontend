@@ -10,7 +10,7 @@ const nextConfig = {
         pathname: '/uploads/**',
       },
       {
-        protocol: 'http',
+        protocol: 'https',
         hostname: 'portfolio-cms-tpz3.onrender.com',
         pathname: '/uploads/**',
       }
