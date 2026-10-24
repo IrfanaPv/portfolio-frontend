@@ -1,7 +1,8 @@
 'use client'
 import { useState } from 'react'
 import { useInView } from "../ui/useInView"
-import { submitContactMessage } from '@/lib/strapi'
+// import { submitContactMessage } from '@/lib/strapi'
+import { submitContactMessage } from '@/lib/sanity'
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 

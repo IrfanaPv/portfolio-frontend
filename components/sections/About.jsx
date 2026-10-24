@@ -6,7 +6,6 @@ export default function About({ data }) {
   const [ref, inView] = useInView({ threshold: 0.25, repeat: true })
   const play = inView ? 'in-view' : ''
 
-  // No content duplicated here — if Strapi returns nothing, don't render
   // broken/partial UI. Better to surface the gap than mask it with stale text.
   if (!data) return null
 
